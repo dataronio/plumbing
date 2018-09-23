@@ -1,11 +1,11 @@
-(defproject prismatic/plumbing "0.5.5-SNAPSHOT"
+(defproject prismatic/plumbing "0.5.6-SNAPSHOT"
   :description "Prismatic's Clojure utility belt."
   :url "https://github.com/plumatic/plumbing"
   :license {:name "Eclipse Public License - v 1.0"
             :url "http://www.eclipse.org/legal/epl-v10.html"
             :distribution :repo}
 
-  :dependencies [[prismatic/schema "1.0.1"]
+  :dependencies [[prismatic/schema "1.1.7"]
                  [de.kotka/lazymap "3.1.0" :exclusions [org.clojure/clojure]]]
 
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.6.0"]
